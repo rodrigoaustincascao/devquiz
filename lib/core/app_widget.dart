@@ -1,3 +1,4 @@
+import 'package:devquiz/challenge/challenge_page.dart';
 import 'package:devquiz/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.system,
       title: "Dev Quiz",
-      home: SplashPage(),
+      home: ChallengePage(),
     );
   }
 }
